@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites name="vitest tests" tests="16" failures="0" errors="0" time="0.259900859">
+    <testsuite name="src/app/shared/layout/layout-menu/app.menuitem.component.spec.ts" timestamp="2026-04-03T06:57:58.511Z" hostname="1c02e354e5df" tests="6" failures="0" errors="0" skipped="0" time="0.101686639">
+        <testcase classname="src/app/shared/layout/layout-menu/app.menuitem.component.spec.ts" name="AppMenuitemComponent &gt; passes context menu items through to the template" time="0.065326926">
+        </testcase>
+        <testcase classname="src/app/shared/layout/layout-menu/app.menuitem.component.spec.ts" name="AppMenuitemComponent &gt; hides the context menu button for items without context menu actions" time="0.007574624">
+        </testcase>
+        <testcase classname="src/app/shared/layout/layout-menu/app.menuitem.component.spec.ts" name="AppMenuitemComponent &gt; exposes admin and canManipulateLibrary as computed signals from UserService" time="0.006204969">
+        </testcase>
+        <testcase classname="src/app/shared/layout/layout-menu/app.menuitem.component.spec.ts" name="AppMenuitemComponent &gt; reports route as active when currentPath matches item routerLink" time="0.005708479">
+        </testcase>
+        <testcase classname="src/app/shared/layout/layout-menu/app.menuitem.component.spec.ts" name="AppMenuitemComponent &gt; reports route as inactive when currentPath does not match" time="0.005844988">
+        </testcase>
+        <testcase classname="src/app/shared/layout/layout-menu/app.menuitem.component.spec.ts" name="AppMenuitemComponent &gt; wires drag handling through the shared shelf drag-drop service" time="0.009128955">
+        </testcase>
+    </testsuite>
+    <testsuite name="src/app/features/book/components/book-browser/book-shelf-drag-drop.service.spec.ts" timestamp="2026-04-03T06:57:58.514Z" hostname="1c02e354e5df" tests="4" failures="0" errors="0" skipped="0" time="0.043185176">
+        <testcase classname="src/app/features/book/components/book-browser/book-shelf-drag-drop.service.spec.ts" name="BookShelfDragDropService &gt; rejects dropping onto the only existing shelf" time="0.023184043">
+        </testcase>
+        <testcase classname="src/app/features/book/components/book-browser/book-shelf-drag-drop.service.spec.ts" name="BookShelfDragDropService &gt; reassigns the dragged book to the dropped shelf and removes other shelves" time="0.008326951">
+        </testcase>
+        <testcase classname="src/app/features/book/components/book-browser/book-shelf-drag-drop.service.spec.ts" name="BookShelfDragDropService &gt; only changes the hovered shelf when entering a different valid shelf" time="0.006496758">
+        </testcase>
+        <testcase classname="src/app/features/book/components/book-browser/book-shelf-drag-drop.service.spec.ts" name="BookShelfDragDropService &gt; clears drag state and reports an error when the shelf update fails" time="0.00329237">
+        </testcase>
+    </testsuite>
+    <testsuite name="src/app/features/book/components/book-browser/book-card/book-card.component.spec.ts" timestamp="2026-04-03T06:57:58.515Z" hostname="1c02e354e5df" tests="6" failures="0" errors="0" skipped="0" time="0.115029044">
+        <testcase classname="src/app/features/book/components/book-browser/book-card/book-card.component.spec.ts" name="BookCardComponent &gt; derives progress, audiobook, and series display state from inputs and changes" time="0.0777369">
+        </testcase>
+        <testcase classname="src/app/features/book/components/book-browser/book-card/book-card.component.spec.ts" name="BookCardComponent &gt; delegates drag start and end to the shared shelf drag-drop service" time="0.009451739">
+        </testcase>
+        <testcase classname="src/app/features/book/components/book-browser/book-card/book-card.component.spec.ts" name="BookCardComponent &gt; uses forced ebook mode for audiobook reads and falls back to the normal read flow otherwise" time="0.007136992">
+        </testcase>
+        <testcase classname="src/app/features/book/components/book-browser/book-card/book-card.component.spec.ts" name="BookCardComponent &gt; derives display format from missing primary files, extensions, paths, and forced audiobook ebook types" time="0.006252698">
+        </testcase>
+        <testcase classname="src/app/features/book/components/book-browser/book-card/book-card.component.spec.ts" name="BookCardComponent &gt; guards card selection and preserves shift metadata for ctrl-initiated changes only" time="0.006953614">
+        </testcase>
+        <testcase classname="src/app/features/book/components/book-browser/book-card/book-card.component.spec.ts" name="BookCardComponent &gt; routes series info and book details through the correct destination" time="0.005586474">
+        </testcase>
+    </testsuite>
+</testsuites>
